@@ -4,8 +4,6 @@
   type="text" 
   placeholder="Enter Subscriber Name"
   required
-  min="10"
-  max="10"
   [(ngModel)]="name"
   name="name"
   >
@@ -13,6 +11,8 @@
   type="text" 
   placeholder="Enter Phone Number"
   required
+  minlength="10"
+  maxlength="10"
   [(ngModel)]="phone"
   name="phone">
   
