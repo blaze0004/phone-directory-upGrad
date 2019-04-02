@@ -1,0 +1,22 @@
+<a routerLink="/" class="btn-back">Back</a>
+<form #addform='ngForm' (ngSubmit)='save(addform.value)'>
+  <input 
+  type="text" 
+  placeholder="Enter Subscriber Name"
+  required
+  min="10"
+  max="10"
+  [(ngModel)]="name"
+  name="name"
+  >
+<input 
+  type="text" 
+  placeholder="Enter Phone Number"
+  required
+  [(ngModel)]="phone"
+  name="phone">
+  
+<p><strong>Subscriber Name: </strong>{{ name }}</p>
+<p><strong>Subscriber Phone Number: </strong>{{ phone }}</p>
+  <input type="submit">
+</form>

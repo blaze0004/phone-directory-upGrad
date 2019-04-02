@@ -1,0 +1,24 @@
+a.btn-back {
+    background: skyblue;
+    border-radius: 4px;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: large;
+    margin: 10px;
+}
+
+input {
+    margin: 10px;
+    display: block;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+input[type='submit'] {
+    background: orangered;
+    color: white;
+}
+
+p {
+    margin: 10px;
+}

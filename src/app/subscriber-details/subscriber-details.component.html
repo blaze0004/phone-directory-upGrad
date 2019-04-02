@@ -1,0 +1,19 @@
+<a routerLink="/add" class="btn-add">Add</a>
+<br>
+
+<table class='detail-table'>
+  <thead>
+      <td>
+          Name
+      </td>
+      <td>Phone Number</td>
+      <td>Action</td>
+  </thead>
+  <tr *ngFor="let subscriber of subscribers$ | async; index as i; trackBy: i">
+      <td>{{subscriber.name}}</td>
+      <td>{{subscriber.phone}}</td>
+      <td>
+         <button (click)='delete(i)' class="btn-delete">Delete</button>
+      </td>
+  </tr>
+</table>
