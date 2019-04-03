@@ -1,6 +1,10 @@
 # PhoneDirectory
 
 Demo Link: https://blaze0004.github.io/phone-directory-upGrad
+
+## First Run
+Run npm install and then npm serve or you can also check out the demo link above
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 ## Development server
